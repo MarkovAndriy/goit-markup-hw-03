@@ -1,0 +1,179 @@
+:root {
+ --main-color: #212121;
+ --link-color: #757575;
+ --active-color: #2196F3;
+ --background-footer-color: #2F303A;
+ --white-colr:  #FFFFFF;
+ --header-logo-color: #000000;
+ --background-hero-color: #2F303A;
+ --filters-button-background-color: #F5F4FA;
+ 
+}
+
+.body {
+    font-family: "Roboto", sans-serif ;
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+
+.header-logo {
+    font-family: "Raleway";
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--header-logo-color);
+    text-decoration: none;
+}
+.front-logo {
+    color: var(--active-color);
+}
+.header-list-item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.header-list-link {
+   
+    color: var(--main-color);
+}
+.list-active-link:hover, .list-active-link:focus {
+    color: var(--active-color);
+}
+.header-mail-link {
+   
+    color: var(--link-color);
+}
+.active-link:hover, .active-link:focus {
+    color: var(--active-color);
+}
+.header-tel-link {
+   
+    color: var(--link-color);
+}
+.active-link:hover, .active-link:focus {
+    color: var(--active-color);
+}
+.hero {
+    background: var(--background-hero-color);
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--white-colr);
+}
+.button {
+    font-family: 'Roboto';
+    cursor: pointer;
+    border-radius: 4px;
+}
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--white-colr);
+    background-color: var(--active-color);
+   
+}
+.benefits-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+    
+}
+.benefits-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--link-color);
+}
+.profile-title {
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+
+}
+.team-title {
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+.team-profession {
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--link-color);
+}
+.footer {
+    background: var(--background-footer-color);
+}
+.footer-logo {
+    font-family: "Raleway";
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--white-colr);
+    text-decoration: none;
+}
+.address-item { 
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+.address-map-link {
+    color: var(--white-colr);
+}
+.address-mail-link {
+    color:inherit;
+}
+.address-tel-link {
+    color:inherit;
+}
+          /* Сторінка Портфоліо */
+
+.filters-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    background-color: var(--filters-button-background-color);
+    border-width: 0px;
+}
+.filters-button:hover, .filters-button:focus {
+    color: var(--white-colr);
+    background-color: var(--active-color);
+}
+.projects-list-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+.projects-list-text {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--link-color);
+}
+ 
