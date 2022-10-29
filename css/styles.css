@@ -9,18 +9,37 @@
  --filters-button-background-color: #F5F4FA;
  
 }
+h1,h2,h3,p {
+    margin: 0;
+}
 
 .body {
+   
     font-family: "Roboto", sans-serif ;
+}
+.container {
+    outline: 1px solid red;
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .link {
     text-decoration: none;
 }
 .list {
     list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.header .container {
+    display: flex;
+    align-items: center;
 }
 
 .header-logo {
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
     font-family: "Raleway";
     font-size: 26px;
     line-height: 31px;
@@ -30,6 +49,15 @@
 }
 .front-logo {
     color: var(--active-color);
+}
+.header-list {
+    display: flex;
+}
+.header-list-item:not(:first-child) {
+    margin-left: 50px;
+}
+.header-contacts {
+    margin-left: auto;
 }
 .header-list-item{
     font-weight: 500;
@@ -60,8 +88,16 @@
 }
 .hero {
     background: var(--background-hero-color);
+    text-align: center;    
+}
+.hero-content {
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .hero-title {
+    
+    margin-bottom: 30px;
+    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -73,6 +109,7 @@
     border-radius: 4px;
 }
 .hero-button {
+    padding: 10px 32px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -81,6 +118,8 @@
    
 }
 .benefits-title {
+    padding-top: 94px;
+    margin-bottom: 10px;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -88,26 +127,43 @@
     color: var(--main-color);
     
 }
+.benefits-list {
+    padding-bottom: 94px;
+}
 .benefits-text {
+    
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--link-color);
 }
 .profile-title {
+    margin-bottom: 50px;
+    text-align: center;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--main-color);
 
 }
+.profile-list {
+    padding-bottom: 94px;
+}
 .team-title {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 94px;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--main-color);
 }
+.team-list {
+    padding-bottom: 94px;
+}
 .team-name {
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -151,6 +207,7 @@
           /* Сторінка Портфоліо */
 
 .filters-button {
+    padding: 6px 22px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -164,13 +221,18 @@
     color: var(--white-colr);
     background-color: var(--active-color);
 }
+.projects-list {
+    padding-bottom: 94px;
+}
 .projects-list-title {
+    margin-top: 20px;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-color);
 }
 .projects-list-text {
+    margin-top: 4px;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
