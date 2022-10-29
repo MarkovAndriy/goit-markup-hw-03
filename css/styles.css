@@ -40,6 +40,7 @@ h1,h2,h3,p {
 .header .container {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .header-logo {
