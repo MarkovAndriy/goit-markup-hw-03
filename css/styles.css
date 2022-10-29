@@ -19,7 +19,7 @@ h1,h2,h3,p {
 }
 .container {
     outline: 1px solid red;
-    width: 1230px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -84,7 +84,9 @@ h1,h2,h3,p {
 }
 .active-link:hover, .active-link:focus {
     color: var(--active-color);
-}
+}  
+/* Особливості */
+
 .hero {
     background: var(--background-hero-color);
     text-align: center;    
@@ -116,6 +118,8 @@ h1,h2,h3,p {
     background-color: var(--active-color);
    
 }
+/* Наші переваги */
+
 .benefits-title {
     padding-top: 94px;
     margin-bottom: 10px;
@@ -124,10 +128,21 @@ h1,h2,h3,p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-color);
+}
+
+.benefits-list {
+    display: flex;
+    
+    padding-bottom: 94px;
     
 }
-.benefits-list {
-    padding-bottom: 94px;
+.benefits-list li:not(:first-child) {
+    margin-left: 30px;
+}   
+.benefits-list li {
+    display: block;
+    width: 270px;
+   
 }
 .benefits-text {
     
@@ -136,6 +151,7 @@ h1,h2,h3,p {
     letter-spacing: 0.03em;
     color: var(--link-color);
 }
+/* Чим займаємось */
 .profile-title {
     margin-bottom: 50px;
     text-align: center;
@@ -148,6 +164,8 @@ h1,h2,h3,p {
 .profile-list {
     padding-bottom: 94px;
 }
+/* Команда */
+
 .team-title {
     text-align: center;
     margin-bottom: 50px;
@@ -175,6 +193,8 @@ h1,h2,h3,p {
     letter-spacing: 0.03em;
     color: var(--link-color);
 }
+
+/* Футер */
 .footer {
     background: var(--background-footer-color);
 }
