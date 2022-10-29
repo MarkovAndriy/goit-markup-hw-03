@@ -25,7 +25,6 @@ h1,h2,h3,p {
    
 }
 .section {
-    padding-top: 94px;
     padding-bottom: 94px;
    
 }
@@ -126,7 +125,9 @@ h1,h2,h3,p {
    
 }
 /* Наші переваги */
-
+.benefits {
+    padding-top: 94px;
+}
 .benefits-title {
     margin-bottom: 10px;
     font-size: 14px;
@@ -247,15 +248,17 @@ h1,h2,h3,p {
     color:inherit;
 }
           /* Сторінка Портфоліо */
-
- .filters-list {
+.filters {
+    padding-top: 94px;
+}
+.filters-list {
     display: flex;
     justify-content: center;
- }  
- .filters-list-item {
-    padding-bottom: 56px;
- }  
- .filters-list-item:not(:first-child) {
+}  
+.filters-list-item {
+    padding-bottom: 50px;
+}  
+.filters-list-item:not(:first-child) {
     margin-left: 8px;
 }    
 
