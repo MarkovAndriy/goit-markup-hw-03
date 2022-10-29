@@ -104,8 +104,8 @@ h1,h2,h3,p {
 }
 .hero-title {
     
-    margin-bottom: 30px;
-    
+    margin: 0 auto 30px;
+    width: 645px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
