@@ -279,7 +279,7 @@ h1,h2,h3,p {
     border-width: 0px;
 }
 .filters-button:hover, .filters-button:focus {
-    color: var(--white-colr);
+    color: var(--white-color);
     background-color: var(--active-color);
 }
 .projects-list {
