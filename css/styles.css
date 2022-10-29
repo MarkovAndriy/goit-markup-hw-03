@@ -132,7 +132,6 @@ h1,h2,h3,p {
 
 .benefits-list {
     display: flex;
-    
     padding-bottom: 94px;
     
 }
@@ -140,7 +139,6 @@ h1,h2,h3,p {
     margin-left: 30px;
 }   
 .benefits-list li {
-    display: block;
     width: 270px;
    
 }
@@ -162,8 +160,12 @@ h1,h2,h3,p {
 
 }
 .profile-list {
+    display: flex;
     padding-bottom: 94px;
 }
+.profile-list li:not(:first-child) {
+    margin-left: 30px;
+} 
 /* Команда */
 
 .team-title {
