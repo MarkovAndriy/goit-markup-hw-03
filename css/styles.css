@@ -73,7 +73,6 @@ h1,h2,h3,p {
     color: var(--active-color);
 }
 .header-mail-link {
-   
     color: var(--link-color);
 }
 .active-link:hover, .active-link:focus {
