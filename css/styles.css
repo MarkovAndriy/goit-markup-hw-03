@@ -7,6 +7,7 @@
  --header-logo-color: #000000;
  --background-hero-color: #2F303A;
  --filters-button-background-color: #F5F4FA;
+ --border-color:  #EEEEEE;
  
 }
 h1,h2,h3,p {
@@ -18,10 +19,15 @@ h1,h2,h3,p {
     font-family: "Roboto", sans-serif ;
 }
 .container {
-    outline: 1px solid red;
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+   
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+   
 }
 .link {
     text-decoration: none;
@@ -121,7 +127,6 @@ h1,h2,h3,p {
 /* Наші переваги */
 
 .benefits-title {
-    padding-top: 94px;
     margin-bottom: 10px;
     font-size: 14px;
     line-height: 1.14;
@@ -132,7 +137,6 @@ h1,h2,h3,p {
 
 .benefits-list {
     display: flex;
-    padding-bottom: 94px;
     
 }
 .benefits-list li:not(:first-child) {
@@ -161,7 +165,6 @@ h1,h2,h3,p {
 }
 .profile-list {
     display: flex;
-    padding-bottom: 94px;
 }
 .profile-list li:not(:first-child) {
     margin-left: 30px;
@@ -171,7 +174,6 @@ h1,h2,h3,p {
 .team-title {
     text-align: center;
     margin-bottom: 50px;
-    padding-top: 94px;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
@@ -179,7 +181,6 @@ h1,h2,h3,p {
 }
 .team-list {
     display: flex;
-    padding-bottom: 94px;
     margin-right: -30px;
 }
 .team-list li {
@@ -206,10 +207,7 @@ h1,h2,h3,p {
 }
 
 /* Футер */
-
-
 .footer {
-    
     background: var(--background-footer-color);
 }
 .footer-logo {
@@ -254,7 +252,6 @@ h1,h2,h3,p {
     justify-content: center;
  }  
  .filters-list-item {
-    padding-top: 100px;
     padding-bottom: 56px;
  }  
  .filters-list-item:not(:first-child) {
@@ -279,12 +276,16 @@ h1,h2,h3,p {
 .projects-list {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 94px;
     margin-right: -30px;
 }
 .projects-list li {
     flex-basis: calc((100% - 30px) / 4);
     margin-right: 30px;
+    margin-top: 30px;
+    border-bottom: 1px solid var(--border-color);
+}
+.projects-list li:nth-child(-n + 3){
+    margin-top: 0px;
 }
 .projects-list-title {
     margin-top: 20px;
@@ -297,6 +298,7 @@ h1,h2,h3,p {
 .projects-list-text {
     margin-top: 4px;
     margin-left: 24px;
+    padding-bottom: 20px;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
