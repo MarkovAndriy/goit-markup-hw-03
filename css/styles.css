@@ -19,7 +19,7 @@ h1,h2,h3,p {
 }
 .container {
     outline: 1px solid red;
-    width: 1230px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
