@@ -38,14 +38,15 @@ h1,h2,h3,p {
     margin: 0;
     padding-left: 0;
 }
-.header {
-    border-bottom: 1px solid var(--border-color); 
-}
+
 .header .container {
     display: flex;
     align-items: center;
 }    
-
+.header {
+    border-bottom: 1px solid var(--border-color); 
+    
+}
 .header-logo {
     margin-right: 93px;
     font-family: "Raleway";
